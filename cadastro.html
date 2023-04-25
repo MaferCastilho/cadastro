@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='_css/style.css'>
+    <script src="cadastro.js"></script>
+</head>
+
+<body>
+    <form id="cadastro">
+        <div class="coluna-50">
+            <div id="colunas">
+                <h1>Cadastro</h1>
+                <p>
+                    <label for='email'>E-mail: <br></label>
+                    <input type='email' id='email' name='email' placeholder="seunome@dominio.com"><br>
+                </p>
+                <p>
+                    <label for='senha'>Senha:<br></label>
+                    <input type='password' id='password'>
+                </p>
+                <p>
+                    <label for='name'>Nome completo: <br></label>
+                    <input type='name' id='name' placeholder="seu nome completo">
+                </p>
+                <p>
+                    <label for='date'>Data de Nascimento: <br></label>
+                    <input type='date' id='date' placeholder="dia/mês/ano"><br>
+                </p>
+                <p>
+                    <label for='fone'>Telefone: <br></label>
+                    <input type='fone' id='fone' placeholder="(00) 00000-0000"><br>
+                </p>
+                <p>
+                    <label for='cpf'>CPF: <br></label>
+                    <input type='cpf' id='cpf' placeholder="000.000.000-00">
+                </p>
+            </div>
+
+            <div id="colunas">
+                <h1>Endereço</h1>
+                <p>
+                    <label for="rua">Rua:</br></label>
+                    <input type="rua" id="rua"><br>
+                    <label for="numero">Número:</br></label>
+                    <input type="numero" id="numero"><br>
+                </p>
+                <p>
+                    <label for="CEP">CEP: <br></label>
+                    <input type="cep" id="cep"><br>
+                    <label for="cidade">Cidade: <br></label>
+                    <input type="cidade" id="cidade"><br>
+                    <label for="bairro">Bairro: <br></label>
+                    <input type="bairro" id="bairro"><br>
+                </p>
+                <p>
+                    <label for="estado">Estado: <br></label>
+                    <input type="estado" id="estado"><br>
+                    <label for="complemento">Complemento: <br></label>
+                    <input type="complemento" id="complemento"><br>
+                </p>
+                <button onclick="Validar()" class="btn btn - waring">Cadastrar</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
